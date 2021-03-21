@@ -114,10 +114,10 @@ def make_case(info, query):
     career = ['junior', 'senior', '-']
     soul_food = ['chicken', 'pizza', '-']
     score = [1, 100000]
-    # info_size = random.randint(1, 50000)
-    # query_size = random.randint(1, 100000)
-    info_size = 50000
-    query_size = 50000
+    info_size = random.randint(1, 50000)
+    query_size = random.randint(1, 100000)
+    # info_size = 50000
+    # query_size = 100000
 
     for _ in range(info_size):
         sentence = language[random.randint(0, 2)] + " " + work[random.randint(0, 1)] + " " + career[random.randint(0, 1)]\
