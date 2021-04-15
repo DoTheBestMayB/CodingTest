@@ -1,6 +1,6 @@
 """
 # 문제
-LeetCode 3Sum
+15. LeetCode 3Sum
 https://leetcode.com/problems/3sum/submissions/
 
 # 내용
@@ -8,13 +8,13 @@ list, set 보다 dictionary 를 사용하면 시간 절약 할 수 있음
 
 threeSum1 함수 : 처음 작성한 list,set 을 사용한 답안
 threeSum2 함수 : list, set 배열을 만든 후 이것을 이용해 dictionary 를 만든 답안
-threeSum3 함수 : list, set 없이 dictionary 를 만든 최종 답안
+threeSum 함수 : list, set 없이 dictionary 를 만든 최종 답안
 
 """
 import time
 
 
-def threeSum3(nums: list[int]) -> list[list[int]]:
+def threeSum(nums: list[int]) -> list[list[int]]:
     ans = []
     if len(nums) < 3:
         return []
