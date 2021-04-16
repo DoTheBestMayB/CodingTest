@@ -50,12 +50,12 @@ import time
 
 st = time.time()
 p = 1
-for i in range(10^2000000):
+for i in range(10**100):
     p = p * i
 print(time.time() - st)
 
 st = time.time()
 p = 1
-for i in range(10^2000000):
+for i in range(10**100):
     p *= i
 print(time.time() - st)
