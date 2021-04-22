@@ -33,6 +33,9 @@ reverseListRecurse 이해하기 위한 흐름
 6. reverse(None, 5) return 5
 
 return 5
+
+# 참고자료
+파이썬 알고리즘 인터뷰 책
 """
 
 
