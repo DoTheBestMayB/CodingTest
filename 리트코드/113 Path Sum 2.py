@@ -8,7 +8,7 @@ https://leetcode.com/problems/path-sum-ii/
 2. node.left 조건을 살필 때 return 하면 node.right 를 탐색할 수 없음을 고려하지 않음
 > pathSumWrong
 
-2. 음수 값을 가진 노드가 존재할 수 있다는 조건을 고려하지 않아, 중간에 sum 이 target_num 을 넘으면 DFS 탐색을 멈춰야 한다고 잘못 생각함
+3. 음수 값을 가진 노드가 존재할 수 있다는 조건을 고려하지 않아, 중간에 sum 이 target_num 을 넘으면 DFS 탐색을 멈춰야 한다고 잘못 생각함
 > pathSumCut
 
 # 내용
